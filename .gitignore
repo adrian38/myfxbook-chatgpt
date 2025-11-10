@@ -1,0 +1,72 @@
+# ────────────────
+# NODE / TYPESCRIPT
+# ────────────────
+node_modules/
+dist/
+out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de compilación temporales
+*.tsbuildinfo
+
+# ────────────────
+# ENTORNO / CONFIG
+# ────────────────
+.env
+.env.*
+app.config.local.json
+app.config.dev.json
+.DS_Store
+
+# ────────────────
+# CSV y resultados exportados
+# ────────────────
+out/*.csv
+out/*.txt
+out/*.json
+out/*.xlsx
+out/*.zip
+
+# ────────────────
+# SISTEMA OPERATIVO
+# ────────────────
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ────────────────
+# IDEs / EDITORES
+# ────────────────
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ────────────────
+# BACKUPS / TEMPORALES
+# ────────────────
+*.bak
+*.tmp
+*.old
+*.orig
+*.cache
+
+# ────────────────
+# CSV/LOGS GENERADOS POR SCRIPTS
+# ────────────────
+out/**/*.csv
+out/**/*.log
+out/**/*.txt
+
+# ────────────────
+# GIT INTERNALS (por seguridad)
+# ────────────────
+.gitconfig
+.git-credentials

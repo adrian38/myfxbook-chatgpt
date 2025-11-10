@@ -1,0 +1,21 @@
+{
+  "name": "myfxbook-chatgpt",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json",
+    "start": "npx ts-node src/index.ts",
+    "export": "npx ts-node src/myfxbook-export.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^5.3.1",
+    "openai": "^4.67.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
